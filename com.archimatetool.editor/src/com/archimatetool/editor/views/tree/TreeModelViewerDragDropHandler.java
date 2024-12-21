@@ -288,6 +288,9 @@ public class TreeModelViewerDragDropHandler {
 
         // Local Tree Selection...
         
+        // @FEATURE(01):@MULTI-MODEL => FIX-DRAG-OVER by @VBO
+        return true;
+        /**
         // Dragging onto a Folder
         Object parent = getTargetParent(event);
         if(parent instanceof IFolder) {
@@ -306,6 +309,7 @@ public class TreeModelViewerDragDropHandler {
         }
         
         return false;
+        **/
     }
     
     /**
