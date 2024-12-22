@@ -25,10 +25,10 @@
 	<extension point="org.eclipse.core.runtime.products" id="product">
 		<product
         application="com.archimatetool.editor.app"
-        name="Archi">
+        name="Archi (Coop)">
      <property
            name="appName"
-           value="Archi"/>
+           value="Archi (Coop)"/>
      <property
            name="windowImages"
            value="img/app-16.png,img/app-32.png,img/app-48.png"/>
